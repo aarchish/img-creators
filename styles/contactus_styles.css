@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *** STYLES *** */
+body, a, button, input,p {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Start of Header Section */
+
+.background-blue {
+  background-color: #67F6FF;
+  color: black;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 4rem;
+  height: 10vh;
+}
+
+.navbar-container__logo {
+  width: 4.5rem;
+}
+
+.navbar-container__links {
+  margin-left: auto;
+}
+
+.navbar-container__links__link,
+.section-top__link {
+  box-sizing: border-box;
+  padding: 0.25rem;
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.quote-btn-sm,
+.quote-btn-bg {
+  border-radius: 1rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #FCFF4F;
+  font-weight: 500;
+}
+
+.navbar-container__links__link:hover,
+.navbar-container__links__link:focus {
+  cursor: pointer;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-shadow: 0.125rem 0.125rem 0.1125rem rgba(0,0,0, 0.2);
+}
+
+.quote-btn-sm:hover,
+.quote-btn-sm:focus,
+.quote-btn-bg:hover,
+.quote-btn-bg:focus {
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.section-top {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
